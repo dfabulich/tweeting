@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61C9E49C1556471E007EFB42 /* SBTableAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C9E49B1556471E007EFB42 /* SBTableAlert.m */; };
 		F4EF59B013BA4C210008C84B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EF59AF13BA4C210008C84B /* UIKit.framework */; };
 		F4EF59B213BA4C210008C84B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EF59B113BA4C210008C84B /* Foundation.framework */; };
 		F4EF59B413BA4C210008C84B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EF59B313BA4C210008C84B /* CoreGraphics.framework */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61C9E49A1556471E007EFB42 /* SBTableAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableAlert.h; sourceTree = "<group>"; };
+		61C9E49B1556471E007EFB42 /* SBTableAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableAlert.m; sourceTree = "<group>"; };
 		F4EF59AB13BA4C210008C84B /* Tweeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EF59AF13BA4C210008C84B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4EF59B113BA4C210008C84B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +109,8 @@
 		F4EF59B513BA4C210008C84B /* Tweeting */ = {
 			isa = PBXGroup;
 			children = (
+				61C9E49A1556471E007EFB42 /* SBTableAlert.h */,
+				61C9E49B1556471E007EFB42 /* SBTableAlert.m */,
 				F4EF59CD13BA4C3A0008C84B /* TweetingAppDelegate.h */,
 				F4EF59CE13BA4C3A0008C84B /* TweetingAppDelegate.m */,
 				F4EF59D113BA4C3A0008C84B /* MainStoryboard.storyboard */,
@@ -212,6 +217,7 @@
 				F4EF59BC13BA4C210008C84B /* main.m in Sources */,
 				F4EF59D213BA4C3A0008C84B /* TweetingAppDelegate.m in Sources */,
 				F4EF59D313BA4C3A0008C84B /* TweetingViewController.m in Sources */,
+				61C9E49C1556471E007EFB42 /* SBTableAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

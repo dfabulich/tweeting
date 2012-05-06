@@ -48,8 +48,13 @@
 #import <UIKit/UIKit.h>
 #import <Twitter/Twitter.h>
 #import <Accounts/Accounts.h>
+#import "SBTableAlert.h"
 
-@interface TweetingViewController : UIViewController
+@interface TweetingViewController : UIViewController <SBTableAlertDelegate, SBTableAlertDataSource> {
+    ACAccountStore *accountStore;
+    NSArray * accountsArray;
+    SBTableAlert *alert;
+}
 
 @property (strong, nonatomic) IBOutlet UIButton *easyTweetButton;
 @property (strong, nonatomic) IBOutlet UIButton *customTweetButton;
